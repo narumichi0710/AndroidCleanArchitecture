@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-kapt'
+
 android {
 
     buildTypes {
@@ -13,5 +13,9 @@ android {
 }
 
 dependencies {
+    implementation project(':app')
+    implementation project(':data:repository')
+    api project(':domain:entity')
+    api project(':app')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
