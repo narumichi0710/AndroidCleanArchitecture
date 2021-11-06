@@ -1,16 +1,10 @@
 # AndroidCleanArchitecture
 
-# モジュール構成
-## - app
-
-## - data
-##   - gateway
-##   - repository
-
-## - domain
-##   - entity
-##   - useCase
-
-## - presentation
-##   - layout
-##   - view
+## モジュール構成
+### :app
+### :data:gateway
+### :data:repository
+### :domain:entity
+### :domain:useCase
+### :presentation:layout
+### :presentation:view
